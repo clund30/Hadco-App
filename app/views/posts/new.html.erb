@@ -1,0 +1,11 @@
+
+<%= form_for @post do |f| %>
+
+  <%= f.date_field :date %>
+  <%= f.label :truck %>
+  <%= f.text_area :mileage %>
+  <%= f.text_area :notes %>
+
+  <%= f.submit 'Save' %>
+
+<% end %>
